@@ -15,8 +15,10 @@ export const Header = ({ className }: HeaderProps) => {
                 <h1 className=''>
                     Boxd Picker
                 </h1>
-                <div className=''>
-                    <input className='w-[25vw] min-w-[150px] mr-3 rounded-full p-1' />
+                <div className='flex flex-row'>
+                    <div className='flex bg-gradient-to-r from-co2 mr-3 to-grad rounded-full'>
+                        <input type='text' className='pl-3 m-[2px] bg-co1 w-[25vw] min-w-[150px] rounded-full p-1' placeholder='Enter Movie Title' />
+                    </div>
                     <button className='border hover:border-grad glow-out border-co2 rounded-full p-1 pl-2 pr-2 hover:shadow-none transition-all hover:scale-95'>Submit</button>
                 </div>
                 <button className='border hover:border-grad glow-out border-co2 rounded-full p-1 pl-2 pr-2 hover:shadow-none transition-all hover hover:scale-95'>Info</button>
