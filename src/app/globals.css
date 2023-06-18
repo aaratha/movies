@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.glow-in {
+  box-shadow: 0 0 7px 0.1px #EBCD9C inset;
+  
+}
+
+.glow-out {
+  box-shadow: 0 0 7px 0.1px #EBCD9C;
+}
