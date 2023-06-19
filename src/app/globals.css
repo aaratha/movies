@@ -27,15 +27,18 @@ body {
 }
 
 .glow-in {
+  box-shadow: 0 2px 12px 0 #bf00ff inset;
+}
+
+.glow-in-old {
   box-shadow: 0 0 5px 0.1px #EBCD9C inset;
-  
 }
 
 .glow-out {
-  box-shadow: 0 0 5px 0px #EBCD9C;
+  box-shadow: 0 0 5px 0px #ff9a53;
 }
 
-h1,p,button {
+h1,p,button,input {
   font-family: "Lucida Console", monospace;
   font-weight: 100;
 }

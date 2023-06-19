@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <div className='p-2 rounded-xl bg-co1'>
+      <div className='glow-in p-3 rounded-xl bg-co1'>
         <Header className='flex' />
         <div className='flex flex-row'>
             <Info_window className='flex'/>

@@ -10,8 +10,8 @@ export interface AIProps {
  */
 export const AI = ({ className }: AIProps) => {
     return (
-        <div className='w-2/5 p-[2px] bg-gradient-to-r from-co2 to-grad rounded-xl ml-3 mt-3 mr-3'>
-            <div className='flex flex-col h-full p-4 bg-co1 rounded-xl'>
+        <div className='glow-out w-2/5 p-[2px] bg-gradient-to-r from-co2 to-grad rounded-xl ml-3 mt-3 mr-3'>
+            <div className='glow-in flex flex-col h-full p-4 bg-co1 rounded-xl'>
                 <h1 className=''>AI Response:</h1>
                 <p>
                     A young man named Josef visits a dilapidated Sanatorium to see his father Jakob. On
