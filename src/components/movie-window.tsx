@@ -13,8 +13,8 @@ export interface Movie_windowProps {
  */
 export const Movie_window = ({ className }: Movie_windowProps) => {
     return (
-        <div className='glow-out w-1/5   p-[2px] bg-gradient-to-r from-co2 to-grad rounded-xl mt-3'>
-            <div className='glow-in flex overflow-scroll h-[85.2vh] flex-col p-4 bg-co1 rounded-xl'>
+        <div className=' w-1/5   p-[2px] bg-gradient-to-r from-co2 to-grad rounded-xl mt-3'>
+            <div className='glow-in scrollbar flex overflow-scroll no-scrollbar h-[85.2vh] flex-col p-4 bg-co1 rounded-xl'>
                 <Image
                     src={img}
                     className=''
