@@ -7,13 +7,13 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <main className="glow-out m-3 p-[2px] rounded-xl bg-co2 bg-gradient-to-r from-co2 to-grad border-co2  flex flex-col items-center justify-between">
+    <main className="glow-out p-[0px] flex flex-col items-center justify-between">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <div className=' p-3 rounded-xl bg-co1'>
+      <div className='h-screen p-4 bg-co1'>
         <Header className='flex' />
         <div className='flex flex-row'>
             <Info_window className='flex'/>

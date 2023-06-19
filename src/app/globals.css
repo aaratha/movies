@@ -42,19 +42,30 @@ body {
 }
 
 .glow-in {
-  box-shadow: 1px 4px 6px 0 #4b37ff inset;
+  box-shadow: 0px 0px 4px 0px #ffd699 inset;
 }
 
 .glow-in-old {
-  box-shadow: 0 0 5px 0.1px #EBCD9C inset;
+  box-shadow: 0 0 0px 0.1px #EBCD9C inset;
 }
 
 .glow-out {
-  box-shadow: 0px 2px 5px 0px #4b37ff;
+  box-shadow: 0px 2px 5px 0px #ffad6a;
 }
 
-h1,p,button,input {
-  font-family: "Lucida Console", monospace;
+h1,p {
+  font-family: "lucida console", monospace;
   font-weight: 100;
-  color: #ffffff;
+  color: #ffd699;
+}
+
+button,input {
+  font-family: "lucida console", monospace;
+  font-weight: 100;
+  color: #000000;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
 }
