@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -27,7 +42,7 @@ body {
 }
 
 .glow-in {
-  box-shadow: 0 2px 12px 0 #bf00ff inset;
+  box-shadow: 1px 4px 6px 0 #4b37ff inset;
 }
 
 .glow-in-old {
@@ -35,10 +50,11 @@ body {
 }
 
 .glow-out {
-  box-shadow: 0 0 5px 0px #ff9a53;
+  box-shadow: 0px 2px 5px 0px #4b37ff;
 }
 
 h1,p,button,input {
   font-family: "Lucida Console", monospace;
   font-weight: 100;
+  color: #ffffff;
 }
