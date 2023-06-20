@@ -6,7 +6,7 @@ module.exports = {
     images: {
         unoptimized: true,
       },
-    distDir: 'build',
+    /**distDir: 'build',*/
 }
 
 
