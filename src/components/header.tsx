@@ -13,7 +13,7 @@ export const Header = ({ className }: HeaderProps) => {
         <div className=' rounded-lg p-[2px] bg-gradient-to-r from-co2 to-grad flex flex-row justify-between items-center' style={{ width: '100%' }}>
             <div className='rounded-lg p-2 bg-co1 flex flex-row justify-between pl-5 pr-3 items-center' style={{ width: '100%' }}>
                 <h1 className=''>
-                    Boxd Picker
+                    Cinebrief
                 </h1>
                 <div className='flex flex-row'>
                     <div className='flex bg-gradient-to-r from-co2 mr-3 to-grad rounded-full'>

@@ -14,20 +14,20 @@ export interface Movie_windowProps {
 export const Movie_window = ({ className }: Movie_windowProps) => {
     return (
         <div className=' w-1/5 p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-4'>
-            <div className='  flex overflow-scroll h-[87vh] flex-col p-4 bg-co1 rounded-lg'>
+            <div className=' scrollbar-none flex overflow-scroll h-[87vh] flex-col p-4 bg-co1 rounded-lg'>
                 <Image
                     src={img}
-                    className=''
+                    className='rounded-xl mb-4'
                     alt="The Hourglass Sanatorium movie poster"
                 />
                 <Image
                     src={img}
-                    className=''
+                    className='rounded-xl mb-4'
                     alt="The Hourglass Sanatorium movie poster"
                 />
                 <Image
                     src={img}
-                    className=''
+                    className='rounded-xl'
                     alt="The Hourglass Sanatorium movie poster"
                 />
             </div>
