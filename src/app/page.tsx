@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <main className="glow-out p-[0px] flex flex-col items-center justify-between">
+    <main className="glow-out h-screen p-[0px] flex flex-col items-center justify-between">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
