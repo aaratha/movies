@@ -69,14 +69,14 @@ body {
 h1,p {
   font-family: Georgia;
   font-weight: 100;
-  font-size:medium;
+  font-size: large;
   color: #ffd699;
 }
 
 button,input {
   font-family:  Georgia;
   font-weight: 300;
-  font-size: medium;
+  font-size:large;
   color: #000000;
 }
 

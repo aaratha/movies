@@ -17,17 +17,17 @@ export const Movie_window = ({ className }: Movie_windowProps) => {
             <div className=' scrollbar-none flex overflow-scroll h-[87vh] flex-col p-4 bg-co1 rounded-lg'>
                 <Image
                     src={img}
-                    className='rounded-xl mb-4'
+                    className='but m-auto mb-7 mt-3 hover:scale-[94%] transition-all rounded-xl w-[90%]'
                     alt="The Hourglass Sanatorium movie poster"
                 />
                 <Image
                     src={img}
-                    className='rounded-xl mb-4'
+                    className='but w-[90%] m-auto mb-4 hover:scale-[94%] rounded-xl'
                     alt="The Hourglass Sanatorium movie poster"
                 />
                 <Image
                     src={img}
-                    className='rounded-xl'
+                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-xl'
                     alt="The Hourglass Sanatorium movie poster"
                 />
             </div>
