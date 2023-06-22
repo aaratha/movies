@@ -21,7 +21,7 @@ export default function Home() {
             <AI className='' />
             <Movie_window className='' />
         </div>
-        <p className='text-sm pl-3 pt-1'>Movie information provided by The Movie Database</p>
+        <p className='text-sm pl-1 pt-1'>Movie information provided by The Movie Database</p>
       </div>
     </main>
   )
