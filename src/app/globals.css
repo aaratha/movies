@@ -63,7 +63,7 @@ body {
 }
 
 .nu {
-  box-shadow: -1px -4px 9px 0px rgba(255, 231, 211, 0.4), 4px 4px 13px 3px rgba(0, 0, 0, 1);
+  box-shadow: -1px -4px 9px 1px rgba(255, 231, 211, 0.4), 4px 4px 12px 3px rgba(0, 0, 0, 0.8);
 }
 
 h1,p {
