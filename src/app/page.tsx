@@ -7,8 +7,9 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <main className="glow-out h-screen p-[0px] flex flex-col items-center justify-between">
+    <main className="bg-co1 w-[100%] h-screen p-[0px] flex flex-col items-center justify-between">
       <Head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7106001278051966"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
