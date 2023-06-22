@@ -14,9 +14,9 @@ export const AI = ({ className }: AIProps) => {
             <div className=' flex flex-col h-full  rounded-lg'>
                 <div className='justify-between nestflex flex flex-row pl-4 pr-4 p-1 rounded-xl items-center'>
                     <h1 className='ml-3 text-black font-bold'>AI:</h1>
-                    <button className='scale-90 hover:scale-[80%] transition-all text-black border-black ml-1 p-1 pl-2 pr-2 rounded-full border-2'>Convincing</button>
-                    <button className='ml-1 p-1 pl-2 pr-2 scale-90 hover:scale-[80%] rounded-full border-2 text-black border-black transition-all'>Academic</button>
-                    <button className='ml-1 mr-3 p-1 pl-2 pr-2 scale-90 hover:scale-[80%] rounded-full border-2 text-black border-black transition-all'>Background</button>
+                    <button className='but2 scale-93 hover:pl-3 hover:pr-3 transition-all text-black border-black ml-1 p-1 pl-2 pr-2 rounded-full border-2 hover:border-grad'>Convincing</button>
+                    <button className='but2 ml-1 p-1 pl-2 pr-2 scale-93 hover:pl-3 hover:pr-3 rounded-full border-2 text-black border-black hover:border-grad'>Academic</button>
+                    <button className='but2 ml-1 mr-3 p-1 pl-2 pr-2 scale-93 hover:pl-3 hover:pr-3 rounded-full border-2 text-black border-black hover:border-grad'>Background</button>
                 </div>
                 <div className=' mt-[2px] p-4 h-full bg-co1 rounded-lg'>
                     <p>

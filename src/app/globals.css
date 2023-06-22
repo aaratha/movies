@@ -41,12 +41,25 @@ body {
 
 .but {
   box-shadow: 0px 2px 5px 0px #ffad6a;
+  transition: all 0.15s ease !important; 
 }
 
 .but:hover {
-  box-shadow: 1px 2px 7px 0px #000000 inset;
-  transition: all 0.5s ease;
+  box-shadow: 1px 2px 4px 0px #000000 inset;
+  transition: all 0.15s ease !important; 
+  
 }
+
+.but2 {
+  box-shadow: 0px 2px 5px 0px #ffad6a;
+  transition: all 0.15s ease !important;
+}
+
+.but2:hover {
+  box-shadow: 1px 2px 4px 0px #000000;
+  transition: all 0.15s ease !important; 
+}
+
 
 
 h1,p {
