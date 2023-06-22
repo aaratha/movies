@@ -65,14 +65,16 @@ body {
 
 
 h1,p {
-  font-family: "lucida console", monospace;
+  font-family: Georgia;
   font-weight: 100;
+  font-size:medium;
   color: #ffd699;
 }
 
 button,input {
-  font-family: "lucida console", monospace;
-  font-weight: 100;
+  font-family:  Georgia;
+  font-weight: 300;
+  font-size: medium;
   color: #000000;
 }
 
