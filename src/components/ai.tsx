@@ -10,7 +10,7 @@ export interface AIProps {
  */
 export const AI = ({ className }: AIProps) => {
     return (
-        <div className=' w-2/5 p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg ml-4 mt-4 mr-4'>
+        <div className=' w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg ml-4 mt-4 mr-4'>
             <div className=' flex flex-col h-full  rounded-lg'>
                 <div className='justify-between nestflex flex flex-row pl-4 pr-4 p-1 rounded-xl items-center'>
                     <h1 className='ml-3 text-black font-bold'>AI:</h1>
