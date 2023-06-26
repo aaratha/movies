@@ -5,6 +5,7 @@ import { AI } from '../components/ai';
 import { Header } from '../components/header';
 import Head from 'next/head';
 
+
 export default function Home() {
   return (
     <main className="bg-co1 w-[100%] h-screen p-[0px] flex flex-col items-center justify-between">
