@@ -16,7 +16,7 @@ module.exports = {
         'co1': '#1f1e21',
         'grad': '#ffc354',
         'co2': '#ffdd8e',
-        'co3': '#3D00E0',
+        'co3': '#ff7247',
         'bg1': '#43434e',
         'bg2': '#28282a',
       },
