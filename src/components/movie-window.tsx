@@ -30,6 +30,16 @@ export const Movie_window = ({ className }: Movie_windowProps) => {
                     className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
                     alt="The Hourglass Sanatorium movie poster"
                 />
+                <Image
+                    src={img}
+                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                    alt="The Hourglass Sanatorium movie poster"
+                />
+                <Image
+                    src={img}
+                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                    alt="The Hourglass Sanatorium movie poster"
+                />
             </div>
         </div>
     );

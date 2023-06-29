@@ -7,6 +7,19 @@ import Head from 'next/head';
 
 
 export default function Home() {
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NzgxNjU1NmEzMjlmMzA2ODU3NzJiYjQ1MDIyMjg1OSIsInN1YiI6IjY0OTFmYzg2NTU5ZDIyMDBmZjEyYjRmZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FyyaenNgZngm1RrcfvJEqT7FNF7bZzXNED5la_nq-Wg'
+    }
+  };
+  const terms = 'uncle%20boonmee'
+  fetch('https://api.themoviedb.org/3/search/movie?query=' + terms + '&include_adult=false&language=en-US&page=1', options)
+    .then(response => response.json())
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
+
   return (
     <main className=" w-[100%] h-screen p-[0px] flex flex-col items-center justify-between">
       <Head>
@@ -15,7 +28,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <div className='h-screen p-6 bg-gradient-to-b from-zinc-700 to-zinc-800'>
+      <div className='h-screen p-6 bg-gradient-to-b from-bg1 to-bg2'>
         <Header className='flex' />
         <div className='flex flex-row'>
             <Info_window className='flex'/>
