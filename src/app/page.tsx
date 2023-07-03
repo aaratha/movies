@@ -21,22 +21,22 @@ export default function Home() {
     .catch(err => console.error(err));
 
   return (
-    <main className=" w-[100%] h-screen p-[0px] flex flex-col items-center justify-between">
+    <main className="bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between">
       <Head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7106001278051966"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <div className='h-screen p-6 bg-gradient-to-b from-bg1 to-bg2'>
+      <div className=' h-full overflow-none'>
         <Header className='flex' />
-        <div className='flex flex-row'>
+        <div className='flex flex-col xl:flex-row'>
             <Info_window className='flex'/>
             <AI className='' />
             <Movie_window className='' />
         </div>
-        <p className='text-sm pl-1 pt-1'>Movie information provided by The Movie Database</p>
       </div>
+      <p className='text-sm pl-1 pt-1'>Movie information provided by The Movie Database</p>
     </main>
   )
 }

@@ -13,33 +13,36 @@ export interface Movie_windowProps {
  */
 export const Movie_window = ({ className }: Movie_windowProps) => {
     return (
-        <div className='nu w-[14.28%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-4'>
-            <div className=' scrollbar-none flex overflow-scroll h-[85vh] flex-col p-4 bg-co1 rounded-lg'>
-                <Image
-                    src={img}
-                    className='but m-auto mb-7 mt-3 hover:scale-[94%] transition-all rounded-lg w-[90%] hover:rounded-none'
-                    alt="The Hourglass Sanatorium movie poster"
-                />
-                <Image
-                    src={img}
-                    className='but w-[90%] m-auto mb-4 hover:scale-[94%] rounded-lg hover:rounded-none'
-                    alt="The Hourglass Sanatorium movie poster"
-                />
-                <Image
-                    src={img}
-                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
-                    alt="The Hourglass Sanatorium movie poster"
-                />
-                <Image
-                    src={img}
-                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
-                    alt="The Hourglass Sanatorium movie poster"
-                />
-                <Image
-                    src={img}
-                    className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
-                    alt="The Hourglass Sanatorium movie poster"
-                />
+        <div className='nu xl:w-[14.28%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-4 h-full'>
+            <div className='h-full'>
+                <h1 className='ml-1 p-3 text-center text-black font-bold'>Similar Movies</h1>
+                <div className=' scrollbar-none flex overflow-scroll xl:h-full h-[10vh] flex-row xl:flex-col p-4 bg-co1 rounded-lg'>
+                    <Image
+                        src={img}
+                        className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                        alt="The Hourglass Sanatorium movie poster"
+                    />
+                    <Image
+                        src={img}
+                        className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                        alt="The Hourglass Sanatorium movie poster"
+                    />
+                    <Image
+                        src={img}
+                        className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                        alt="The Hourglass Sanatorium movie poster"
+                    />
+                    <Image
+                        src={img}
+                        className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                        alt="The Hourglass Sanatorium movie poster"
+                    />
+                    <Image
+                        src={img}
+                        className='w-[90%] but m-auto mb-4 mt-3 hover:scale-[94%] rounded-lg hover:rounded-none'
+                        alt="The Hourglass Sanatorium movie poster"
+                    />
+                </div>
             </div>
         </div>
     );
