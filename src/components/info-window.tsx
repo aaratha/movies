@@ -34,7 +34,7 @@ export const Info_window = ({ className }: Info_windowProps) => {
                     </p>
                 </div>
                 <div className='mt-4'>
-                    <h1 className=' w-14 rounded-t-lg text-center text-black bg-gradient-to-r from-co2 to-grad'>Cast</h1>
+                    <h1 className=' w-14 rounded-t-lg text-center text-black bg-co2'>Cast</h1>
                     <div className='rounded-lg rounded-tl-none bg-gradient-to-r from-co2 to-grad p-[2px]'>
                         <div className='rounded-lg p-3 nu-in bg-bg1 flex flex-row '>
                             <div className='p-2 mr-2 rounded-lg border-gray-200 border hover:bg-gray-200 transition-all hover:text-black'>placeholder</div>

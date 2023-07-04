@@ -12,7 +12,7 @@ export const Header = ({ className }: HeaderProps) => {
     return (
         <div className='nu rounded-lg p-[2px] bg-gradient-to-r from-co2 to-grad flex flex-row justify-between items-center' style={{ width: '100%' }}>
             <div className=' rounded-lg p-2 bg-co1 flex flex-row justify-between pl-5 pr-3 items-center' style={{ width: '100%' }}>
-                <h1 className=''>
+                <h1 className=' text-2xl'>
                     Cinebrief
                 </h1>
                 <div className='flex flex-row'>

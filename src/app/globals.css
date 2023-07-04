@@ -74,14 +74,14 @@ body {
 
 h1,p {
   font-family: Calibri;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
   color: #bed8ff;
 }
 
 button,input,li {
   font-family:  Calibri;
-  font-weight: 300;
+  font-weight: 400;
   font-size: large;
   color: #000000;
 }
