@@ -20,7 +20,7 @@ fetch(url)
 export const Info_window = ({ className }: Info_windowProps) => {
     return (
         <div className='mt-6 nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg justify-between flex-col flex'>
-            <div className=' justify-between flex flex-col h-full p-4 bg-co1 rounded-lg'>
+            <div className=' justify-between flex flex-col h-full p-4 bg-gradient-to-b from-bg2 to-gray-900 rounded-lg'>
                 <div>
                     <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black rounded-lg p-2 pl-4 text-center mb-4 text-lg'>The Hourglass Sanitorium</h1>
                     <p className='pb-2 italic text-slate-300'>1973 ‘Sanatorium pod klepsydrą’ Directed by Wojciech Has</p>

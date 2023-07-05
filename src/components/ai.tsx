@@ -20,7 +20,7 @@ export const AI = ({ className }: AIProps) => {
                         <button className='but2 ml-2 mr-1 p-1 pl-2 pr-2 scale-93 rounded-full border-2 text-black border-black hover:border-opacity-0'>Background</button>
                     </div>
                 </div>
-                <div className=' mt-[2px] p-4 h-full bg-co1 rounded-lg'>
+                <div className=' mt-[2px] p-4 h-full bg-gradient-to-b from-bg2 to-gray-900 rounded-lg'>
                     <p>
                         A young man named Josef visits a dilapidated Sanatorium to see his father Jakob. On
                         his arrival, a sinister doctor informs him that his father had stopped breathing but
