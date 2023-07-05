@@ -86,6 +86,12 @@ button,input,li {
   color: #000000;
 }
 
+@media (max-width: 640px) {
+  h1, p, button, input, li {
+    font-size: medium;
+  }
+}
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: red;
   opacity: 1; /* Firefox */
