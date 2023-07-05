@@ -1,6 +1,4 @@
 import React from 'react';
-import { ReactComponent as SubmitIcon } from '../icons/submit.svg';
-import { ReactComponent as InfoIcon } from '../icons/info.svg';
 
 export interface HeaderProps {
     className?: string;
