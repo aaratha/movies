@@ -28,9 +28,9 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
       </Head>
-      <div className=' h-full overflow-none'>
+      <div className=' h-full '>
         <Header className='flex' />
-        <div className='flex flex-col xl:flex-row'>
+        <div className='flex lg:h-[88vh] flex-col lg:flex-row'>        
             <Info_window className='flex'/>
             <AI className='' />
             <Movie_window className='' />

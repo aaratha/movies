@@ -19,11 +19,11 @@ fetch(url)
 
 export const Info_window = ({ className }: Info_windowProps) => {
     return (
-        <div className='nu xl:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-4 justify-between flex-col flex'>
+        <div className='mt-6 nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg justify-between flex-col flex'>
             <div className=' justify-between flex flex-col h-full p-4 bg-co1 rounded-lg'>
                 <div>
                     <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black rounded-lg p-2 pl-4 text-center mb-4 text-lg'>The Hourglass Sanitorium</h1>
-                    <p className='pb-2'>1973 ‘Sanatorium pod klepsydrą’ Directed by Wojciech Has</p>
+                    <p className='pb-2 italic text-slate-300'>1973 ‘Sanatorium pod klepsydrą’ Directed by Wojciech Has</p>
                     <p>
                         A young man named Josef visits a dilapidated Sanatorium to see his father Jakob. On
                         his arrival, a sinister doctor informs him that his father had stopped breathing but

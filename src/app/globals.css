@@ -40,7 +40,7 @@ body {
 }
 
 .but {
-  box-shadow: -1px -3px 6px 0px rgba(255, 231, 211, 0.4), 1px 3px 7px 0px rgba(0, 0, 0, 1);
+  box-shadow: -1px -3px 6px 0px rgba(255, 231, 211, 0.4), 1px 3px 7px 0px rgba(0, 0, 0, 1), 0px 3px 10px 0px #ded6ff inset;
   transition: all 0.15s ease !important; 
 }
 
@@ -75,14 +75,14 @@ body {
 h1,p {
   font-family: Calibri;
   font-weight: 400;
-  font-size: large;
+  font-size: larger;
   color: #bed8ff;
 }
 
 button,input,li {
   font-family:  Calibri;
   font-weight: 400;
-  font-size: large;
+  font-size: larger;
   color: #000000;
 }
 
