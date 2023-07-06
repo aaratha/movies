@@ -5,18 +5,6 @@ export interface Info_windowProps {
     className?: string;
 }
 
-
-
-const username = 'MEMBER_USERNAME';
-const apiKey = 'YOUR_API_KEY';
-
-const url = `https://api.letterboxd.com/api/v0/user/${username}/watchlist?api_key=${apiKey}`;
-
-fetch(url)
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.error('Error:', error));
-
 export const Info_window = ({ className }: Info_windowProps) => {
     return (
         <div className='mt-6 nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg justify-between flex-col flex'>
