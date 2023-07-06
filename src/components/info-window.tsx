@@ -22,15 +22,11 @@ export const Info_window = ({ className }: Info_windowProps) => {
         <div className='mt-6 nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg justify-between flex-col flex'>
             <div className=' justify-between flex flex-col h-full p-4 bg-gradient-to-b from-bg2 to-gray-900 rounded-lg'>
                 <div>
-                    <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black rounded-lg p-2 pl-4 text-center mb-4 text-lg'>The Hourglass Sanitorium</h1>
-                    <p className='pb-2 italic text-slate-300'>1973 ‘Sanatorium pod klepsydrą’ Directed by Wojciech Has</p>
+                    <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black rounded-lg p-2 pl-4 text-center mb-4 text-lg'>Memoria (2021)</h1>
+                    <p className=' text-slate-300'>Apichatpong Weerasethakul</p>
+                    <p className='pb-2 italic text-slate-400 text-sm'> Director, Writer</p>
                     <p>
-                        A young man named Josef visits a dilapidated Sanatorium to see his father Jakob. On
-                        his arrival, a sinister doctor informs him that his father had stopped breathing but
-                        hasn’t died yet, perhaps due to Josef’s arrival which may have halted time in the
-                        sanatorium. Josef undertakes a strange journey through the many rooms of the
-                        sanatorium, each which conjures worlds composed of his memories, dreams and
-                        nightmares.
+                        One morning, Jessica Holland, a Scottish orchid farmer visiting her sister in Bogotá, is woken by a loud ‘bang’. This haunting sound dispels her sleep for days, calling into question her identity and guiding her from recording studios to secluded jungle villages in an attempt to find its source.
                     </p>
                 </div>
                 <div className='mt-4'>

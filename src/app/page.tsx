@@ -21,7 +21,7 @@ export default function Home() {
     .catch(err => console.error(err));
 
   return (
-    <main className="bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between">
+    <main className="h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between">
       <Head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7106001278051966"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
       <div className=' h-full '>
         <Header className='flex' />
-        <div className='flex lg:h-[88vh] flex-col lg:flex-row'>        
+        <div className='flex lg:h-[87.2vh] flex-col lg:flex-row'>        
             <Info_window className='flex'/>
             <AI className='' />
             <Movie_window className='' />

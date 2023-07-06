@@ -72,17 +72,23 @@ body {
   box-shadow: -1px -3px 8px 0px rgba(167, 167, 167, 0.5) inset, 3px 5px 10px 0px #000000 inset;
 }
 
-h1,p {
-  font-family: Calibri;
+.viewshadow {
+  box-shadow: 0px -20px 10px 0px #000000 inset;
+  z-index: 10;
+}
+
+
+h1,p,li {
+  font-family: sans-serif;
   font-weight: 400;
-  font-size: larger;
+  font-size: large;
   color: #bed8ff;
 }
 
-button,input,li {
-  font-family:  Calibri;
+button,input {
+  font-family:  sans-serif;
   font-weight: 400;
-  font-size: larger;
+  font-size: large;
   color: #000000;
 }
 
