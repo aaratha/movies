@@ -72,9 +72,8 @@ body {
   box-shadow: -1px -3px 8px 0px rgba(167, 167, 167, 0.5) inset, 3px 5px 10px 0px #000000 inset;
 }
 
-.viewshadow {
-  box-shadow: 0px -20px 10px 0px #000000 inset;
-  z-index: 10;
+.inputshadow {
+  box-shadow: 0px 5px 10px 0px #000000;
 }
 
 
