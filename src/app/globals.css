@@ -93,6 +93,12 @@ button,input {
   h1, p, button, input, li {
     font-size: medium;
   }
+  .but2 {
+    width: 105px;
+  }
+  .but2:hover {
+    width: 115px;
+  }
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
