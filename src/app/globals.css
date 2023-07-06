@@ -52,13 +52,13 @@ body {
 }
 
 .but2 {
-  box-shadow: -4px -5px 5px 0px rgb(222, 214, 255, 0.5) inset, -2px -3px 10px 0px rgb(222, 214, 255, 0.4), 3px 5px 10px 0px  rgba(50, 33, 73, 0.5) inset, 2px 3px 10px 0px  rgba(50, 33, 73, 0.3);
+  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.4) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0.5), 5px 5px 15px 0px  rgba(50, 33, 73, 0.35) inset, 2px 3px 20px 0px  rgba(50, 33, 73, 0.4);
   width: 120px;
   transition: all 0.15s ease !important;
 }
 
 .but2:hover {
-  box-shadow: 1px 2px 4px 0px #000000;
+  box-shadow: 2px 5px 8px 0px rgba(50, 33, 73, 0.5);
   width: 130px;
   transition: all 0.15s ease !important; 
   background-color: rgb(184, 197, 255);
