@@ -78,16 +78,14 @@ body {
 
 
 h1,p,li {
-  font-family: Helvetica;
   font-weight: 400;
-  font-size: large;
+  font-size: medium;
   color: #bed8ff;
 }
 
 button,input {
-  font-family:  Helvetica;
   font-weight: 400;
-  font-size: large;
+  font-size: medium;
   color: #000000;
 }
 

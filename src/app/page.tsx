@@ -4,7 +4,14 @@ import { Info_window } from '../components/info-window';
 import { AI } from '../components/ai';
 import { Header } from '../components/header';
 import Head from 'next/head';
+import { Roboto } from '@next/font/google';
 
+const roboto = Roboto({
+  weight: ['300', '400', '500'],
+  style: ['normal'],
+  subsets: ['latin-ext'],
+  variable: '--font-roboto',
+});
 
 export default function Home() {
   const options = {
@@ -21,7 +28,7 @@ export default function Home() {
     .catch(err => console.error(err));
 
   return (
-    <main className="h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between">
+    <main className={'${inter.variable} font-sans h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between'}>
       <div className=' h-full '>
         <Header className='flex' />
         <div className='flex lg:h-[87.2vh] flex-col lg:flex-row'>        
