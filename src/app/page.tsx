@@ -22,12 +22,6 @@ export default function Home() {
 
   return (
     <main className="h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between">
-      <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7106001278051966"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
-      </Head>
       <div className=' h-full '>
         <Header className='flex' />
         <div className='flex lg:h-[87.2vh] flex-col lg:flex-row'>        
