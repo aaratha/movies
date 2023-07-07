@@ -37,14 +37,14 @@ export const Header: React.FC<HeaderProps> = ({ onSearch, className }) => {
     
     return (
         <div className='nu rounded-lg p-[2px] bg-gradient-to-r from-co2 to-grad flex flex-row justify-between items-center' style={{ width: '100%' }}>
-            <div className=' rounded-lg p-2 bg-gradient-to-r from-bg2 to-gray-900 flex flex-row justify-between pl-5 pr-3 items-center' style={{ width: '100%' }}>
-                <h1 className=' text-2xl'>
+            <div className=' rounded-lg p-2 bg-gradient-to-r from-bg2 to-gray-900 flex flex-row justify-between pl-4 pr-3 items-center' style={{ width: '100%' }}>
+                <h1 className='text-lg lg:text-2xl'>
                     Cinebrief
                 </h1>
                 <div className='flex flex-row'>
                     <form className='flex flex-row' onSubmit={handleSubmit}>
                         <div className='flex bg-gradient-to-r from-co2 mr-3 to-grad rounded-full'>
-                            <input type='text' value={inputValue} onChange={handleChange} className='relative placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-4 m-[2px] w-[30vw] min-w-[150px] rounded-full p-1 z-10' placeholder='Enter movie title...' onFocus={handleInputFocus} onBlur={handleInputBlur} />
+                            <input type='text' value={inputValue} onChange={handleChange} className='relative placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-1 m-[2px] w-[30vw] min-w-[150px] rounded-full p-1 z-10' placeholder='Enter movie title...' onFocus={handleInputFocus} onBlur={handleInputBlur} />
                             {isInputFocused && (
                                 <div className={`inputshadow absolute mt-5 w-[30.33vw] min-w-[150px] pt-7 p-4 bg-gradient-to-r from-co2 to-grad rounded-br-lg rounded-bl-lg z-1 text-black`}>
                                 <ul className='text-black'>
