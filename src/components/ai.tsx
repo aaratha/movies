@@ -12,7 +12,7 @@ export const AI = ({ className }: AIProps) => {
     return (
         <div className='nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-6 mt-6 lg:mr-6'>
             <div className='f flex flex-col h-full  rounded-lg'>
-                <div className='justify-between nestflex flex flex-row pl-4 pr-4 p-1 rounded-xl items-center '>
+                <div className='justify-between nestflex flex flex-row flex-wrap pl-4 pr-4 p-1 rounded-xl items-center '>
                     <h1 className='ml-1 text-black font-bold'>AI:</h1>
                     <div>
                         <button className='but2 scale-93 hover:pl-3 hover:pr-3 transition-all text-black border-black ml-1 p-1 rounded-full  hover:border-opacity-0'>Background</button>

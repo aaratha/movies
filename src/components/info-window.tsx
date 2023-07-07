@@ -19,9 +19,8 @@ export const Info_window = ({ className }: Info_windowProps) => {
                 </div>
                 <div className='mt-4'>
                     <h1 className=' w-14 rounded-t-lg text-center text-black bg-co2'>Cast</h1>
-                    <div className='rounded-lg rounded-tl-none bg-gradient-to-r from-co2 to-grad p-[2px]'>
-                        <div className='rounded-lg p-3 nu-in bg-bg2 flex flex-row '>
-                            <div className='p-2 mr-2 rounded-lg border-gray-200 border hover:bg-gray-200 transition-all hover:text-black'>placeholder</div>
+                    <div className=' rounded-lg rounded-tl-none bg-gradient-to-r from-co2 to-grad p-[2px]'>
+                        <div className=' overflow-x-scroll overflow-y-hidden nu-in rounded-lg p-3 bg-bg2 flex flex-row'>
                             <div className='p-2 mr-2 rounded-lg border-gray-200 border hover:bg-gray-200 transition-all hover:text-black'>placeholder</div>
                             <div className='p-2 mr-2 rounded-lg border-gray-200 border hover:bg-gray-200 transition-all hover:text-black'>placeholder</div>
                         </div>
