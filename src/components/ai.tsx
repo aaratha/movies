@@ -12,9 +12,9 @@ export const AI = ({ className }: AIProps) => {
     return (
         <div className='nu lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-6 mt-6 lg:mr-6'>
             <div className='f flex flex-col h-full  rounded-lg'>
-                <div className='justify-between nestflex flex flex-row flex-wrap pl-1 pr-1 p-1 lg:pl-4 lg:pr-4 rounded-xl items-center '>
-                    <h1 className='ml-1 text-black font-bold'>AI:</h1>
-                    <div>
+                <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 lg:pl-4 lg:pr-4 rounded-xl items-center '>
+                    <h1 className='ml-1 text-black font-bold text-center items-center content-center'>AI:</h1>
+                    <div className='w-full sm:w-auto text-center'>
                         <button className='but2 scale-x-90 lg:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-black border-black p-1 rounded-full  hover:border-opacity-0'>Background</button>
                         <button className='but2 scale-x-90 lg:scale-x-100 ml-1 lg:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full text-black border-black hover:border-opacity-0'>Reception</button>
                         <button className='but2 scale-x-90 lg:scale-x-100 ml-1 lg:ml-3 m-1 p-1 pl-2 pr-2 scale-93 rounded-full  text-black border-black hover:border-opacity-0'>Impact</button>
