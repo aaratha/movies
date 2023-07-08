@@ -52,7 +52,7 @@ body {
 }
 
 .but2 {
-  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.4) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0.5), 5px 5px 15px 0px  rgba(50, 33, 73, 0.35) inset, 2px 3px 20px 0px  rgba(50, 33, 73, 0.4);
+  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.4) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0.5), 5px 5px 8px 0px  rgba(50, 33, 73, 0.35) inset, 2px 3px 20px 0px  rgba(50, 33, 73, 0.4);
   width: 120px;
   transition: all 0.15s ease !important;
 }
@@ -65,15 +65,15 @@ body {
 }
 
 .nu {
-  box-shadow: -1px -3px 8px 0px rgba(255, 231, 211, 0.4), 2px 3px 12px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px -4px 15px 0px rgba(195, 155, 255, 0.5), 0px 2px 15px 0px rgba(0, 0, 0, 0.9);
 }
 
 .nu-in {
-  box-shadow: -1px -3px 8px 0px rgba(167, 167, 167, 0.5) inset, 3px 5px 10px 0px #000000 inset;
+  box-shadow: -1px -3px 8px 0px rgba(167, 167, 167, 0.5) inset, 3px 5px 15px 0px rgb(0, 0, 0, 0.5) inset;
 }
 
 .inputshadow {
-  box-shadow: 0px 5px 20px 0px rgb(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 
