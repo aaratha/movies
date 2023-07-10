@@ -70,7 +70,7 @@ export const Header = ({ }: HeaderProps) => {
                                     <button className='text-black border' type="button" key={result.id} tabIndex={0} style={{ zIndex: 1 }} onMouseDown={(e) => e.preventDefault()} onClick={() => handleMovieClick(result.id)}>{result.title} {result.id}</button>
                                 ))}
                                 {selectedMovieId && (
-                                    <Info_window selectedMovieID={selectedMovieId} />
+                                    <Info_window  selectedMovieID={selectedMovieId} />
                                     )}
                                 </div>
                             )}
