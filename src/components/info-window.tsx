@@ -31,7 +31,7 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
                     <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black font-bold rounded-lg p-2 pl-4 text-center mb-4 text-lg'>Memoria (2021)</h1>
                     <p className=' text-slate-300'>Apichatpong Weerasethakul</p>
                     <p className='pb-2 italic text-slate-400 text-sm'> Director, Writer</p>
-                    <p>{movieDescription}</p>
+                    <p>{movieDescription}One morning, Jessica Holland, a Scottish orchid farmer visiting her sister in Bogotá, is woken by a loud ‘bang’. This haunting sound dispels her sleep for days, calling into question her identity and guiding her from recording studios to secluded jungle villages in an attempt to find its source.</p>
                 </div>
                 <div className='mt-4'>
                     <h1 className=' w-14 rounded-t-lg text-center text-black bg-co2'>Cast</h1>
