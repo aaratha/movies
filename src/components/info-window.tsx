@@ -31,7 +31,7 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
                     <h1 className='nu bg-gradient-to-r from-co2 to-grad text-black font-bold rounded-lg p-2 pl-4 text-center mb-4 text-lg'>Memoria (2021)</h1>
                     <p className=' text-slate-300'>Apichatpong Weerasethakul</p>
                     <p className='pb-2 italic text-slate-400 text-sm'> Director, Writer</p>
-                    <p>{movieDescription}</p>
+                    <h1>{movieDescription}</h1>
                 </div>
                 <div className='mt-4'>
                     <h1 className=' w-14 rounded-t-lg text-center text-black bg-co2'>Cast</h1>
