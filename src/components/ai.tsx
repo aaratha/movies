@@ -15,9 +15,9 @@ export const AI = ({ className }: AIProps) => {
                 <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 md:pl-4 md:pr-4 rounded-xl items-center '>
                     <h1 className='ml-1 text-black font-bold text-center items-center content-center'>AI</h1>
                     <div className='w-full sm:w-auto text-center'>
-                        <button className='but2 scale-x-100 sm:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-black border-black p-1 rounded-full  hover:border-opacity-0'>Background</button>
-                        <button className='but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full text-black border-black hover:border-opacity-0'>Reception</button>
-                        <button className='but2 scale-x-100 ml-2 sm:ml-3 m-1 p-1 pl-2 pr-2 scale-93 rounded-full  text-black border-black hover:border-opacity-0'>Impact</button>
+                        <button className='z-10 but2 scale-x-100 sm:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-black border-black p-1 rounded-full  hover:border-opacity-0'>Background</button>
+                        <button className=' z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full text-black border-black hover:border-opacity-0'>Reception</button>
+                        <button className='z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full text-black border-black hover:border-opacity-0'>Impact</button>
                     </div>
                 </div>
                 <div className='mt-[2px] p-4 h-full bg-co1 rounded-lg overflow-scroll'>
