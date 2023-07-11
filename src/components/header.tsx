@@ -58,14 +58,14 @@ export const Header = ({ }: HeaderProps) => {
                             <input 
                                 type='text' 
                                 value={inputValue} 
-                                className='relative z-20 placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-3 m-[2px] w-[30vw] min-w-[150px] rounded-full p-1'
+                                className='relative z-30 placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-3 m-[2px] w-[30vw] min-w-[150px] rounded-full p-1'
                                 placeholder='Enter movie title...'
                                 onFocus={handleInputFocus} 
                                 onBlur={handleInputBlur} 
                                 onChange={handleInputChange} 
                             />
                             {isInputFocused && (
-                                <div className={`h-40 z-10 overflow-scroll inputshadow absolute mt-5 w-[30.37vw] min-w-[150px] pt-7 p-4 bg-gradient-to-r from-co2 to-grad rounded-br-lg rounded-bl-lg z-1 text-black`} >
+                                <div className={`overflow-x-hidden  scrollbar-none h-40 z-20 overflow-scroll inputshadow absolute mt-5 w-[30vw] min-w-[150px] pt-7 p-4 bg-gradient-to-r from-co2 to-grad rounded-br-lg rounded-bl-lg z-1 text-black`} >
                                 {searchResults.map((result) => (
                                     <button className='text-black border' type="button" key={result.id} tabIndex={0} style={{ zIndex: 1 }} onMouseDown={(e) => e.preventDefault()} onClick={() => handleMovieClick(result.id)}>{result.title} {result.id}</button>
                                 ))}

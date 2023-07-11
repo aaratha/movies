@@ -52,7 +52,7 @@ body {
 }
 
 .but2 {
-  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.2) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0.5), 5px 5px 8px 0px  rgba(50, 33, 73, 0) inset, 2px 3px 20px 0px  rgba(50, 33, 73, 0.4);
+  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.2) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0), 5px 5px 8px 0px  rgba(50, 33, 73, 0) inset, 2px 3px 6px 0px  rgba(50, 33, 73, 0.3);
   width: 120px;
   background: rgba(221, 190, 255, 0.5);
   transition: all 0.15s ease !important;

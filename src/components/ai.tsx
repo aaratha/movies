@@ -20,7 +20,7 @@ export const AI = ({ className }: AIProps) => {
                         <button className='text-black hover:text-white z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Impact</button>
                     </div>
                 </div>
-                <div className='mt-[2px] p-4 h-full bg-co1 rounded-lg overflow-scroll'>
+                <div className='overflow-x-hidden scrollbar-none mt-[2px] p-4 h-full bg-co1 rounded-lg overflow-scroll'>
                     <p className=' z-0'>
                         &quot;Memoria&quot; is a film directed by Apichatpong Weerasethakul, a renowned Thai filmmaker known for his unique and contemplative style. The film stars Tilda Swinton and explores themes of memory, identity, and the relationship between humans and the natural world. It received critical acclaim and has been regarded as an important addition to Weerasethakul&apos;s filmography. Here are a few reasons why &quot;Memoria&quot; is worth watching:
                         <li>
