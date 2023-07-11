@@ -18,7 +18,7 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <main className={'${inter.variable} font-sans h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-6 pb-1 flex flex-col items-center justify-between'}>
+    <main className={'${inter.variable} font-sans h-screen bg-gradient-to-b from-bg1 to-bg2 w-[100%] p-3 pb-1 flex flex-col items-center justify-between'}>
       <div className=' h-full '>
         <Header />
         <div className='flex lg:h-[87.2vh] flex-col lg:flex-row'>        

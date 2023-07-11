@@ -13,7 +13,7 @@ export interface Movie_windowProps {
  */
 export const Movie_window = ({ className }: Movie_windowProps) => {
     return (
-        <div className='nu lg:w-[14.28%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-6 flex'>
+        <div className=' lg:w-[14.28%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg mt-3 flex'>
             <div className='h-full flex flex-col'>
                 <h1 className='ml-1 p-3 text-center text-black font-bold'>Similar Movies</h1>
                 <div className=' scrollbar-none flex overflow-scroll lg:h-full flex-row lg:flex-col p-4 bg-co1  rounded-lg w-[90.4vw] lg:w-auto'>
