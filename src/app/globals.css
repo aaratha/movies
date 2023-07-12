@@ -52,17 +52,17 @@ body {
 }
 
 .but2 {
-  box-shadow: -4px -5px 10px 0px rgba(242, 239, 255, 0.2) inset, -2px -3px 15px 0px rgba(233, 228, 254, 0), 5px 5px 8px 0px  rgba(50, 33, 73, 0) inset, 2px 3px 6px 0px  rgba(50, 33, 73, 0.3);
+
   width: 120px;
-  background: rgba(221, 190, 255, 0.5);
+  background-color: rgba(42, 31, 62, 0.5);
   transition: all 0.15s ease !important;
 }
 
 .but2:hover {
-  box-shadow: 2px 5px 8px 0px rgba(50, 33, 73, 0.5);
+  box-shadow: 0px 2px 9px 0px rgba(157, 137, 179, 0.5);
   width: 130px;
   transition: all 0.15s ease !important; 
-  background-color: rgba(42, 31, 62, 0.5);
+  background: rgba(238, 220, 255, 0.6);
 }
 
 .nu {

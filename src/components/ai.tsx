@@ -10,17 +10,17 @@ export interface AIProps {
  */
 export const AI = ({ className }: AIProps) => {
     return (
-        <div className=' lg:w-[42.86%] p-[2px] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-3 mt-3 lg:mr-3'>
+        <div className=' lg:w-[42.86%] p-[0px] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-3 mt-3 lg:mr-3'>
             <div className='f flex flex-col h-full  rounded-lg'>
                 <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 md:pl-4 md:pr-4 rounded-xl items-center '>
                     <h1 className='ml-1 text-black font-bold text-center items-center content-center'>AI</h1>
-                    <div className='w-full sm:w-auto text-center flex justify-between pr-2 pl-2'>
-                        <button className=' z-10 but2 scale-x-100 sm:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-black hover:text-white p-1 rounded-full'>Background</button>
-                        <button className='text-black hover:text-white z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Reception</button>
-                        <button className='text-black hover:text-white z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Impact</button>
+                    <div className='w-full sm:w-auto text-center flex justify-between p-1 pr-2 pl-2'>
+                        <button className=' z-10 but2 scale-x-100 sm:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-white hover:text-black p-1 rounded-full'>Background</button>
+                        <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Reception</button>
+                        <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Impact</button>
                     </div>
                 </div>
-                <div className='overflow-x-hidden scrollbar-none mt-[2px] p-4 h-full bg-co1 rounded-lg overflow-scroll'>
+                <div className='overflow-x-hidden scrollbar-none mt-[2px] p-4 h-full bg-co1 rounded-none rounded-b-lg overflow-scroll'>
                     <p className=' z-0'>
                         &quot;Memoria&quot; is a film directed by Apichatpong Weerasethakul, a renowned Thai filmmaker known for his unique and contemplative style. The film stars Tilda Swinton and explores themes of memory, identity, and the relationship between humans and the natural world. It received critical acclaim and has been regarded as an important addition to Weerasethakul&apos;s filmography. Here are a few reasons why &quot;Memoria&quot; is worth watching:
                         <li>
