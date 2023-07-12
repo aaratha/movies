@@ -14,10 +14,10 @@ export const AI = ({ className }: AIProps) => {
             <div className='f flex flex-col h-full  rounded-lg'>
                 <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 md:pl-4 md:pr-4 rounded-xl items-center '>
                     <h1 className='ml-1 text-black font-bold text-center items-center content-center'>AI</h1>
-                    <div className='w-full sm:w-auto text-center flex justify-between p-1 pr-2 pl-2'>
-                        <button className=' z-10 but2 scale-x-100 sm:scale-x-100 scale-93 hover:pl-3 hover:pr-3 transition-all text-white hover:text-black p-1 rounded-full'>Background</button>
-                        <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Reception</button>
-                        <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 sm:ml-3 p-1 pl-2 pr-2 scale-93 rounded-full border-black hover:border-opacity-0'>Impact</button>
+                    <div className='w-full sm:w-auto text-center flex justify-center p-1 pr-2 pl-2'>
+                        <button className=' z-10 but2 scale-x-100 sm:scale-x-100 scale-93  transition-all text-white hover:text-black p-1 rounded-l-full hover:rounded-full'>Background</button>
+                        <button className='text-white butMid hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2  p-1 pl-2 pr-2 scale-93 border-black hover:border-opacity-0'>Reception</button>
+                        <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 p-1 pl-2 pr-2 scale-93 rounded-r-full hover:rounded-full border-black hover:border-opacity-0'>Impact</button>
                     </div>
                 </div>
                 <div className='overflow-x-hidden scrollbar-none mt-[2px] p-4 h-full bg-co1 rounded-none rounded-b-lg overflow-scroll'>
