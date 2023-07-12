@@ -10,7 +10,7 @@ export interface AIProps {
  */
 export const AI = ({ className }: AIProps) => {
     return (
-        <div className=' lg:w-[42.86%] p-[0px] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-3 mt-3 lg:mr-3 flex flex-col h-full'>
+        <div className=' lg:w-[42.86%] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-3 mt-3 lg:mr-3 flex flex-col h-full'>
             <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 md:pl-4 md:pr-4 rounded-xl items-center '>
                 <h1 className='ml-1 text-black font-bold text-center items-center content-center'>AI</h1>
                 <div className='w-full sm:w-auto text-center flex justify-center p-1 pr-2 pl-2'>
@@ -19,8 +19,8 @@ export const AI = ({ className }: AIProps) => {
                     <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 p-1 pl-2 pr-2 scale-93 rounded-r-full hover:rounded-full border-black hover:border-opacity-0'>Impact</button>
                 </div>
             </div>
-            <div className='overflow-x-hidden mt-[2px] p-4 h-full bg-co1 rounded-none rounded-b-lg overflow-scroll'>
-                <p className=' z-0'>
+            <div className='overflow-x-hidden relative mt-[2px] h-full bg-co1 rounded-none rounded-b-lg overflow-scroll w-full'>
+                <p className='m-4 z-0'>
                     &quot;Memoria&quot; is a film directed by Apichatpong Weerasethakul, a renowned Thai filmmaker known for his unique and contemplative style. The film stars Tilda Swinton and explores themes of memory, identity, and the relationship between humans and the natural world. It received critical acclaim and has been regarded as an important addition to Weerasethakul&apos;s filmography. Here are a few reasons why &quot;Memoria&quot; is worth watching:
                     <li>
                         Directorial Vision: Apichatpong Weerasethakul is highly regarded for his distinctive style and his ability to create immersive and atmospheric cinematic experiences. &quot;Memoria&quot; continues his exploration of themes that have been prevalent in his previous works, such as the intersection of memory, spirituality, and nature. Watching &quot;Memoria&quot; allows viewers to appreciate Weerasethakul&apos;s unique perspective and the way he crafts his films
@@ -43,7 +43,9 @@ export const AI = ({ className }: AIProps) => {
                     </li><br></br>
                     It&apos;s worth mentioning that the perception and evaluation of a film can vary among critics, scholars, and audiences. As &quot;Memoria&quot; continues to be discussed and analyzed, its place within the cinematic canon may become more defined and solidified.
                 </p>
+                <div className='h-[10vh] w-full sticky bottom-0 left-0 bg-gradient-to-t from-co1 to-transparent'></div>
             </div>
+            
         </div>
     );
 };
