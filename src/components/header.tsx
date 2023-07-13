@@ -2,6 +2,8 @@
 import React, { FormEvent } from 'react';
 import { useState } from 'react';
 import { Info_window } from './info-window';
+import Image from 'next/image';
+import logo from './Cine__1_-removebg-preview.png';
 
 export interface HeaderProps {
 }
@@ -47,9 +49,9 @@ export const Header = ({ }: HeaderProps) => {
     };
 
     return (
-        <div className='rounded-lg p-2 bg-gradient-to-r from-co1 to-co12 flex flex-row justify-between pl-4 pr-3 items-center' style={{ width: '100%' }}>
+        <div className='rounded-lg p-1 bg-gradient-to-r from-co1 to-co12 flex flex-row justify-between pl-4 pr-3 items-center' style={{ width: '100%' }}>
             <h1 className='text-lg lg:text-2xl'>
-                Cinebrief
+                <Image src={logo} alt={''} className=' w-28 h-12 '></Image>
             </h1>
             <div className='flex flex-row'>
                 <form className='flex flex-row' onSubmit={handleSearch}>
