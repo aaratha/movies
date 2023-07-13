@@ -3,7 +3,7 @@ import React, { FormEvent } from 'react';
 import { useState } from 'react';
 import { Info_window } from './info-window';
 import Image from 'next/image';
-import logo from './Cine__1_-removebg-preview.png';
+import logo from './Cine-removebg-preview.png';
 
 export interface HeaderProps {
 }
