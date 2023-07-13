@@ -18,6 +18,7 @@ module.exports = {
       },
       colors: {
         'co1': '#373963',
+        'co12': '#322855',
         'grad': '#968dff',
         'co2': '#a4b5ff',
         'co3': '#ff7247',

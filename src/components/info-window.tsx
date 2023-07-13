@@ -44,7 +44,7 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
 
 
     return (
-        <div className='justify-between flex flex-col h-full p-3 bg-co1  rounded-lgmt-3 lg:w-[42.86%] mt-3 rounded-lg '>
+        <div className='justify-between flex flex-col h-full p-3 bg-gradient-to-b from-co1 to-co12  rounded-lgmt-3 lg:w-[42.86%] mt-3 rounded-lg '>
             <div>
                 <h1 className=' bg-gradient-to-r from-co2 to-grad text-black font-bold rounded-lg p-2 pl-4 text-center mb-4 text-lg'>Memoria (2021)</h1>
                 <p className=' text-slate-300'>Apichatpong Weerasethakul</p>
