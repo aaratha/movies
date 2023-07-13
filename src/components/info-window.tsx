@@ -16,25 +16,29 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-          const fetchMovieDescription = async () => {
+            const fetchMovieDescription = async () => {
             if (selectedMovieID && selectedMovieID !== 0) {
-              console.log('Fetching movie description for movie ID:', selectedMovieID);
-              const response = await fetch(`https://api.themoviedb.org/3/movie/${selectedMovieID}?api_key=87816556a329f30685772bb450222859`);
-              const data = await response.json();
-              if (typeof data.overview !== 'undefined' && data.overview.length > 2) {
+                console.log('Fetching movie description for movie ID:', selectedMovieID);
+                const response = await fetch(`https://api.themoviedb.org/3/movie/${selectedMovieID}?api_key=87816556a329f30685772bb450222859`);
+                if (!response.ok) {
+                console.error('Error fetching movie description:', response.statusText);
+                return;
+                }
+                const data = await response.json();
+                if (typeof data.overview !== 'undefined' && data.overview.length > 2) {
                 setMovieDescription(data.overview);
                 setIsDescriptionLoaded(true);
-              }
+                }
             }
-          };
-    
-          fetchMovieDescription();
-        }
-      }, [selectedMovieID]);
+            };
 
-    useEffect(() => {
+            fetchMovieDescription();
+        }
+        }, [selectedMovieID]);
+
+        useEffect(() => {
         console.log('Movie description:', movieDescription);
-    }, [movieDescription]);
+        }, [movieDescription]);
 
     console.log('Info_window component re-rendered');
 
