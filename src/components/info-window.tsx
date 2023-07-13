@@ -36,9 +36,9 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
         }
         }, [selectedMovieID]);
 
-        useEffect(() => {
+    useEffect(() => {
         console.log('Movie description:', movieDescription);
-        }, [movieDescription]);
+    }, [movieDescription]);
 
     console.log('Info_window component re-rendered');
 
