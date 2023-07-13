@@ -11,7 +11,7 @@ export interface Info_windowProps {
 /* One morning, Jessica Holland, a Scottish orchid farmer visiting her sister in Bogotá, is woken by a loud ‘bang’. This haunting sound dispels her sleep for days, calling into question her identity and guiding her from recording studios to secluded jungle villages in an attempt to find its source. */
 
 export const Info_window = ({ className, selectedMovieID }: Info_windowProps) => {
-    const [movieDescription, setMovieDescription] = useState<string>('');
+    const [movieDescription, setMovieDescription] = useState<string>();
     const [isDescriptionLoaded, setIsDescriptionLoaded] = useState<boolean>(false);
 
     useEffect(() => {
@@ -21,21 +21,20 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
                 const response = await fetch(`https://api.themoviedb.org/3/movie/${selectedMovieID}?api_key=87816556a329f30685772bb450222859`);
                 console.log('API response:', response);
                 const data = await response.json();
-                console.log('Data type:', typeof data.overview);
-                console.log('Movie description:', data.overview.trim().toString());
                 setMovieDescription(data.overview.trim().toString());
                 if (movieDescription !== '') {
                     setTimeout(() => {
                         setIsDescriptionLoaded(true);
-                        }, 2000); // Delay for 2 seconds
+                        }, 2000);
                 }};
             };
             fetchMovieDescription();
-        }, [movieDescription, selectedMovieID]);
+        }, [selectedMovieID]);
     
     useEffect(() => {
         if (isDescriptionLoaded) {
             console.log('Movie description loaded:', movieDescription);
+            setIsDescriptionLoaded(false);
         }
         }, [isDescriptionLoaded, movieDescription]);
 
