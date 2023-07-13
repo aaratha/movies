@@ -49,17 +49,17 @@ export const Header = ({ }: HeaderProps) => {
     };
 
     return (
-        <div className='rounded-lg p-1 bg-gradient-to-r from-co1 to-co12 flex flex-row justify-between pl-4 pr-3 items-center' style={{ width: '100%' }}>
-            <h1 className='text-lg lg:text-2xl'>
+        <div className='flex-col rounded-lg p-1 bg-gradient-to-r from-co1 to-co12 flex sm:flex-row justify-none sm:justify-between pl-4 pr-3 items-center' style={{ width: '100%' }}>
+            <h1 className='text-lg lg:text-2xl mr-auto mt-1 mb-1 ml-2 sm:m-0' >
                 <Image src={logo} alt={''} className=' w-28 h-12 '></Image>
             </h1>
             <div className='flex flex-row'>
                 <form className='flex flex-row' onSubmit={handleSearch}>
-                    <div className='flex bg-gradient-to-r from-co2 mr-3 to-grad rounded-full'>
+                    <div className='flex bg-gradient-to-r from-co2 mr-3 to-grad rounded-full mb-2 sm:mb-0 w-full'>
                         <input 
                             type='text' 
                             value={inputValue} 
-                            className='relative z-30 placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-3 m-[2px] w-[30vw] min-w-[150px] rounded-full p-1'
+                            className='relative z-30 placeholder-black placeholder-opacity-50 bg-gradient-to-r from-co2 to-grad pl-3 m-[2px] w-full sm:w-[30vw] min-w-[150px] rounded-full p-1 '
                             placeholder='Enter movie title...'
                             onFocus={handleInputFocus} 
                             onBlur={handleInputBlur} 
@@ -90,7 +90,7 @@ export const Header = ({ }: HeaderProps) => {
                     </button>
                 </form>
             </div>
-            <button className='w-9 h-9 but bg-gradient-to-r from-co2 to-grad rounded-full p-1 transition-all hover hover:scale-95'><svg className='' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Warning / Info"> <path id="Vector" d="M12 11V16M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21ZM12.0498 8V8.1L11.9502 8.1002V8H12.0498Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg> </button>
+            <button className='w-9 h-9 but bg-gradient-to-r from-co2 to-grad rounded-full p-1 transition-all hover hover:scale-95 absolute sm:static right-8 top-6'><svg className='' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Warning / Info"> <path id="Vector" d="M12 11V16M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21ZM12.0498 8V8.1L11.9502 8.1002V8H12.0498Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg> </button>
             
             
         </div>
