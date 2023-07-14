@@ -1,3 +1,7 @@
+'use client'
+
+import { useChat } from 'ai/react'
+
 import React from 'react';
 
 export interface AIProps {
@@ -9,6 +13,7 @@ export interface AIProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const AI = ({ className }: AIProps) => {
+    const { messages, input, handleInputChange, handleSubmit } = useChat()
     return (
         <div className=' lg:w-[42.86%] bg-gradient-to-r from-co2 to-grad rounded-lg lg:ml-3 mt-3 lg:mr-3 flex flex-col h-full'>
             <div className=' justify-center sm:justify-between flex flex-row flex-wrap pl-1 pr-1 p-1 md:pl-4 md:pr-4 rounded-xl items-center '>
@@ -19,6 +24,26 @@ export const AI = ({ className }: AIProps) => {
                     <button className='text-white hover:text-black z-10 but2 scale-x-100 sm:scale-x-100 ml-2 p-1 pl-2 pr-2 scale-93 rounded-r-full hover:rounded-full border-black hover:border-opacity-0'>Impact</button>
                 </div>
             </div>
+            {/*<div className="mx-auto w-full max-w-md py-24 flex flex-col stretch">
+            {messages.map(m => (
+                <div key={m.id}>
+                {m.role === 'user' ? 'User: ' : 'AI: '}
+                {m.content}
+                </div>
+            ))}
+        
+            <form onSubmit={handleSubmit}>
+                <label>
+                Say something...
+                <input
+                    className="flex w-full max-w-md bottom-0 border border-gray-300 rounded mb-8 shadow-xl p-2"
+                    value={input}
+                    onChange={handleInputChange}
+                />
+                </label>
+                <button type="submit">Send</button>
+            </form>
+            </div>*/}
             <div className='overflow-x-hidden relative mt-[2px] h-full bg-gradient-to-b from-co1 to-co12 rounded-none rounded-b-lg overflow-scroll w-full'>
                 <div className='h-[2vh] w-full sticky top-0 left-0 bg-gradient-to-b from-co1 to-transparent scrollbar-track-transparent scrollbar-thumb-slate-500'></div>
                 <p className='m-4 mt-0 z-0'>
