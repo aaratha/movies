@@ -25,25 +25,25 @@ export const AI = ({ className }: AIProps) => {
                 </div>
             </div>
             {/*<div className="mx-auto w-full max-w-md py-24 flex flex-col stretch">
-            {messages.map(m => (
-                <div key={m.id}>
-                {m.role === 'user' ? 'User: ' : 'AI: '}
-                {m.content}
-                </div>
-            ))}
-        
-            <form onSubmit={handleSubmit}>
-                <label>
-                Say something...
-                <input
-                    className="flex w-full max-w-md bottom-0 border border-gray-300 rounded mb-8 shadow-xl p-2"
-                    value={input}
-                    onChange={handleInputChange}
-                />
-                </label>
-                <button type="submit">Send</button>
-            </form>
-            </div>*/}
+                {messages ? messages.map(m => (
+                    <div key={m.id}>
+                    {m.role === 'user' ? 'User: ' : 'AI: '}
+                    {m.content}
+                    </div>
+                )) : []}
+            
+                <form onSubmit={handleSubmit}>
+                    <label>
+                    Say something...
+                    <input
+                        className="flex w-full max-w-md bottom-0 border border-gray-300 rounded mb-8 shadow-xl p-2"
+                        value={input}
+                        onChange={handleInputChange}
+                    />
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
+                </div>*/}
             <div className='overflow-x-hidden relative mt-[2px] h-full bg-gradient-to-b from-co1 to-co12 rounded-none rounded-b-lg overflow-scroll w-full'>
                 <div className='h-[2vh] w-full sticky top-0 left-0 bg-gradient-to-b from-co1 to-transparent scrollbar-track-transparent scrollbar-thumb-slate-500'></div>
                 <p className='m-4 mt-0 z-0'>
