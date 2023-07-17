@@ -11,7 +11,7 @@ export interface Info_windowProps {
 /* One morning, Jessica Holland, a Scottish orchid farmer visiting her sister in Bogotá, is woken by a loud ‘bang’. This haunting sound dispels her sleep for days, calling into question her identity and guiding her from recording studios to secluded jungle villages in an attempt to find its source. */
 
 export const Info_window = ({ className, selectedMovieID }: Info_windowProps) => {
-    const [movieDescription, setMovieDescription] = useState<string>();
+    let [movieDescription, setMovieDescription] = useState<string | null>(null);
     const [isDescriptionLoaded, setIsDescriptionLoaded] = useState<boolean>(false);
 
     useEffect(() => {
@@ -22,7 +22,7 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
                 console.log('API response:', response);
                 const data = await response.json();
                 setMovieDescription(data.overview.trim().toString());
-                if (movieDescription !== '') {
+                if (data.overview.trim().toString() !== '') {
                     setTimeout(() => {
                         setIsDescriptionLoaded(true);
                         }, 2000);
@@ -40,14 +40,19 @@ export const Info_window = ({ className, selectedMovieID }: Info_windowProps) =>
 
     console.log('Info_window component re-rendered');
 
-
     return (
         <div className='justify-between flex flex-col h-full p-3 bg-gradient-to-b from-co1 to-co12  rounded-lgmt-3 lg:w-[42.86%] mt-3 rounded-lg '>
             <div>
                 <h1 className=' bg-gradient-to-r from-co2 to-grad text-black font-bold rounded-lg p-2 pl-4 text-center mb-4 text-lg'>Memoria (2021)</h1>
                 <p className=' text-slate-300'>Apichatpong Weerasethakul</p>
                 <p className='pb-2 italic text-slate-400 text-sm'> Director, Writer</p>
+                <p key={movieDescription}>{movieDescription}</p>
                 {isDescriptionLoaded ? (
+                    <p>{movieDescription}</p>
+                ) : (
+                    <p>Loading...</p>
+                )}
+                {movieDescription ? (
                     <p>{movieDescription}</p>
                 ) : (
                     <p>Loading...</p>
